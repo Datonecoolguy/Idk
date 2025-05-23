@@ -1,14 +1,9 @@
 const reasons = [
-  "I love you.",
-  "I love you.",
-  "I love you.",
-  "I love you.",
-  "I love you.",
-  "I love you.",
-  "I love you.",
-  "I love you.",
-  "I love you.",
-  "I love you.", 
+  "I love you🥰🥰",
+  "I love you🎀🎀",
+  "I love you❤❤",
+  "I love you🌹🌹",
+  "I love you💘💘",
 ];
 
 const list = document.getElementById("reasons-list");
