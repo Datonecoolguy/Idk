@@ -1,14 +1,14 @@
 const reasons = [
-  "Youre Cute.",
-  "You get my weird jokes.",
-  "Youre Cute.",
-  "You somehow always know what to say.",
-  "Youre Cute.",
-  "You’re chill and lowkey nice.",
-  "Youre Cute.",
-  "Even when you’re quiet, it’s comforting.",
-  "Youre Cute.",
-  "Youre Cute."
+  "I love you.",
+  "I love you.",
+  "I love you.",
+  "I love you.",
+  "I love you.",
+  "I love you.",
+  "I love you.",
+  "I love you.",
+  "I love you.",
+  "I love you.", 
 ];
 
 const list = document.getElementById("reasons-list");
@@ -25,7 +25,7 @@ let maxImages = 6;
 function createImage() {
   if (images.length >= maxImages) return;
   const img = document.createElement("img");
-  img.src = "skibidi.jpeg"; // Make sure this exists
+  img.src = "IMG-20250426-WA0023.jpg"; // Make sure this exists
   img.className = "bouncing-image";
 
   let posX = Math.random() * (window.innerWidth - 80);
